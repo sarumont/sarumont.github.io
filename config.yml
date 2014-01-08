@@ -1,0 +1,23 @@
+production_url: "http://www.sigil.org"
+
+"theme-bootstrap-2":
+    use: "theme"
+
+_root:
+    rss:
+        enable: false
+    paginator:
+        enable: false
+
+posts:
+    sort: ["date", "desc"]
+    permalink : '/:year/:month/:title'
+    #summary_lines: 20
+    latest: 5
+    rss:
+        enable: true
+        limit: 10
+    paginator:
+        enable: false
+        url: "/blog/index/"
+        per_page: 5
