@@ -13,9 +13,20 @@ layout : default
 
 <div class="row-fluid post-full">
   <div class="span12">
-    <div class="date">
-      <span>{{page.date}}</strong>
-    </div>
+		<div class="social">
+				<div 
+				onclick="window.open('https://twitter.com/share?url=http://www.sigil.org{{url}}&via=sarumont&text={{title}}','','width=480,height=320,scrollbars=no,resizable=no,location=no,menubar=no,toolbar=no' )"
+				class="twitter"></div>
+				<div 
+				onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.sigil.org{{url}}','','width=480,height=320,scrollbars=no,resizable=no,location=no,menubar=no,toolbar=no' )"
+				class="facebook"></div>
+				<div 
+				onclick="window.open('https://plus.google.com/share?url=http://www.sigil.org{{url}}','','width=480,height=320,scrollbars=no,resizable=no,location=no,menubar=no,toolbar=no' )"
+				class="gplus"></div>
+		</div>
+		<div class="date">{{ page.date }}</div>
+		<div style="clear:both" />
+
     <div class="content">
       {{{ page.content }}}
     </div>

@@ -1,0 +1,12 @@
+title : sigil.org
+tagline: The musings ofa professional drunkard with a coding problem
+author :
+  name : Richard Kolkovich
+  email : richard@sigil.org
+  github : sarumont
+  twitter : sarumont
+
+navigation :
+  - archive
+  - categories
+  - about

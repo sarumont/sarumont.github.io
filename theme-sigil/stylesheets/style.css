@@ -1,3 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Domine:400);
+
+/* 
+ * green: #8da396
+ * brown: 2c2825
+ * lt brown: bdc0af
+ * silver: bbbfbe
+ * white: f6f5f1
+ */
+body {
+	font-family: "Domine", sans-serif;
+	background-color: #2c2825;
+	color: #bdc0af;
+}
+
+a {
+	color: #bbbfbe;
+}
+a:hover{ color: #888C8B; }
+
+h1,h2,h3,h4,h5,h6 { 
+	margin:15px 0;
+	font-family: "Montserrat" sans-serif;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: inherit;
+	text-rendering: optimizelegibility;
+}
+
+.date {
+	float: left;
+	position: relative;
+	top: -15px;
+	font-size: .8em;
+	margin-bottom: 10px;
+	font-family: "Montserrat" sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #bbbfbe;
+}
+
+.social {
+	float: right;
+	position: relative;
+	top: -15px;
+	font-size: .8em;
+	margin-bottom: 10px;
+	font-family: "Montserrat" sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #bbbfbe;
+}
+
+.social div {
+	width: 24px;
+	height: 16px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.twitter { background: url('../media/twitter.png') no-repeat center; }
+.twitter:hover { background: url('../media/twitter_hover.png') no-repeat center; }
+.facebook { background: url('../media/facebook.png') no-repeat center; }
+.facebook:hover { background: url('../media/facebook_hover.png') no-repeat center; }
+.gplus { background: url('../media/gplus.png') no-repeat center; }
+.gplus:hover { background: url('../media/gplus_hover.png') no-repeat center; }
+
+.navbar .brand {
+	display: inline-block;
+	color: #8da396;
+	text-shadow: 0 1px 0 #222;
+	margin: 0;
+	padding: 20px 10px 10px 10px;
+	float: none;
+}
+
+.navbar-inner{
+	text-align: center;
+	min-height:40px;
+	padding-left:20px;
+	padding-right:20px;
+	background:none;
+	border:none;
+	border-radius:4px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	*zoom:1;
+}
+.navbar-inner:before,.navbar-inner:after{
+	display:table;
+	content:"";
+	line-height:0;
+}
+
+.summary, .content {
+	font-size: 1.1em;
+	/*letter-spacing:.1em;*/
+	line-height: 1.7em;
+}
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -67,4 +169,8 @@
   background:#57A957;
   border:1px solid #4C964D;
   color:#FFF;
+}
+.center {
+	text-align:center;
+	margin-bottom: 30px;
 }
