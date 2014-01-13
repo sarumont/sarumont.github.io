@@ -174,3 +174,13 @@ h1,h2,h3,h4,h5,h6 {
 	text-align:center;
 	margin-bottom: 30px;
 }
+
+p {
+	margin-bottom: 20px;
+}
+code {
+	color: #F1F2F3;
+	background-color: #333;
+	border: 1px solid black;
+}
+
