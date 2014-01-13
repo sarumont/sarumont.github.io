@@ -35,9 +35,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{urls.base_path}}">{{ data.title }}</a> | 
-          <a class="brand" href="/about">about</a>
-					<!--| about-->
+          <a class="brand" href="{{urls.base_path}}">{{ data.title }}</a>
         </div>
       </div>
     </div>
@@ -50,14 +48,25 @@
 
       <hr>
       <div class="footer">
-				<p>&copy; {{ data.author.name }} <script>document.write(new Date().getFullYear())</script>
-        </p>
+				<div style="text-align:center;margin-bottom:10px">
+          <a class="brand" href="/about">about</a>
+					&nbsp;|&nbsp;
+          <a class="brand" href="/archive">archives</a>
+					&nbsp;|&nbsp;
+          <a class="brand" href="/categories">categories</a>
+					&nbsp;|&nbsp;
+          <a class="brand" href="/tags">tags</a>
+					&nbsp;|&nbsp;
+          <a class="brand" href="/posts/rss.xml">rss</a>
+				</div>
+				<div style="text-align:center">&copy; {{ data.author.name }} <script>document.write(new Date().getFullYear())</script>
+        </div>
       </div>
 
     </div> <!-- /container -->
 
     {{{ widgets.google_prettify }}}
     {{{ widgets.analytics }}}
-    
+
   </body>
 </html>
