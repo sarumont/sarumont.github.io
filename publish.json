@@ -2,6 +2,6 @@
 	"rsync": {
 		"user": "sarumont",
 		"host": "omni0",
-		"destination": "/home/www/new.sigil.org"
+		"destination": "/home/www/sigil.org"
 	}
 }
