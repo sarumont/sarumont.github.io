@@ -1,10 +1,24 @@
-### write
- - [Google+](https://www.twitter.com/sarumont)
- - [Twitter](https://www.twitter.com/sarumont)
- - [Email](mailto:richard@sigil.org)
+## about
 
-### read
- - [Google+](https://www.twitter.com/sarumont)
+I am a developer with a passion for building things and solving problems. I am currently working on
+the [nuvos SDK][1], a true one-and-done Java solution for writing enterprise-class applications.
+
+When I'm not hacking away on nuvos, I'm probably brewing beer, shredding some fresh powder, or
+hiking in the beautiful Rocky Mountains in Colorado. I may not be a native, but I got here as
+quickly as I could.
+
+## contact
+
+If you need to get ahold of me or want to see what I'm publishing elsewhere, hit up the links below.
+
+#### write
+ - [Email](mailto:richard@sigil.org)
+ - [Twitter](https://www.twitter.com/sarumont)
+
+#### read
+ - [Google+](https://plus.google.com/117868232366144794659)
  - [Twitter](https://www.twitter.com/sarumont)
  - [Github](https://www.github.com/sarumont)
  - [stackoverflow](http://stackoverflow.com/users/43356/sarumont)
+
+ [1]: http://www.nuvos.com
