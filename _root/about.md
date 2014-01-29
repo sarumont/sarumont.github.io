@@ -11,14 +11,16 @@ quickly as I could.
 
 If you need to get ahold of me or want to see what I'm publishing elsewhere, hit up the links below.
 
-#### write
- - [Email](mailto:richard@sigil.org)
+#### connect
  - [Twitter](https://www.twitter.com/sarumont)
+ - [Google+](https://plus.google.com/117868232366144794659)
+ - [LinkedIn](http://www.linkedin.com/in/richardkolkovich)
 
 #### read
- - [Google+](https://plus.google.com/117868232366144794659)
- - [Twitter](https://www.twitter.com/sarumont)
  - [Github](https://www.github.com/sarumont)
  - [stackoverflow](http://stackoverflow.com/users/43356/sarumont)
+
+#### write
+ - [Email](mailto:richard@sigil.org)
 
  [1]: http://www.nuvos.com
