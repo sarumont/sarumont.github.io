@@ -186,3 +186,11 @@ code {
 	border: 1px solid black;
 }
 
+.pagination ul > li > a,
+.pagination ul > li > span {
+	background:none;
+}
+.pagination {
+	margin: 20px auto;
+	width: 270px;
+}
