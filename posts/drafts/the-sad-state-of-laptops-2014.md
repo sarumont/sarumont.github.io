@@ -142,8 +142,8 @@ laptop is fairly chunky, coming in at 1.18" thick.
 
 #### [Macbook Pro (2013)][8]
 
-Oh, Apple. How I hate to love thee. Apple makes beautiful hardware, yet I despise the walled-garden
-philosophy behind their business model. I also doubt I would be as efficient in OS X as I am in
+Oh, Apple. How I hate to love thee. Apple makes beautiful hardware, yet I despise the lock-in which
+is so crucial to their business model. I also doubt I would be as efficient in OS X as I am in
 Linux, even with a serious investment of time (and money into App Store apps).
 
 Besides that, the Haswell Macbook Pros are beautiful. The 13" nails every requirement, save GPU. And
