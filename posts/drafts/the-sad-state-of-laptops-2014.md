@@ -164,7 +164,7 @@ issues), and I'm also apprehensive about a glossy screen.
 
 It is readily apparent that nothing on the market can satisfy my, admittedly particular,
 requirements. I'm encouraged to see that there are three contenders that are *very* close. If I
-decide to upgrade this CPU cycle, I think the T440p would be my choice. 1080p on a 14" screen is
+decide to upgrade this CPU cycle, I think the T440p will be my choice. 1080p on a 14" screen is
 still an upgrade from the same resolution on my 15.6", and the size and weight are both improvements
 to my NP9150. The sad fact, though, is that none of these upgrades would be exponential; they are
 all incremental. Maybe [the Broadwell generation][10] will allow me to have it all.
