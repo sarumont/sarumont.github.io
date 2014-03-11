@@ -13,7 +13,7 @@ If you need to get ahold of me or want to see what I'm publishing elsewhere, hit
 
 #### connect
  - [Twitter](https://www.twitter.com/sarumont)
- - [Google+](https://plus.google.com/117868232366144794659)
+ - [Google+](https://plus.google.com/+RichardKolkovich)
  - [LinkedIn](http://www.linkedin.com/in/richardkolkovich)
 
 #### read
