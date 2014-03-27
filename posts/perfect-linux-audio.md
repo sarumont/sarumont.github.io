@@ -123,6 +123,9 @@ mpd ~/.mpd.conf
 
 Cheers!
 
+**Edit:** Shortly after publishing this post, I discovered that I can easily suspend PulseAudio
+using `pactl`. I have updated my `mpc_switch` [script][4] to eliminate the `pasuspender` step. w00t!
+
  [1]: http://www.sigil.org/2014/03/goodbye-lavos-hello-marle/
  [2]: http://www.amazon.com/gp/product/B0070UFMOW/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0070UFMOW&linkCode=as2&tag=sigilorg-20
  [3]: http://alsa.opensrc.org/TwoCardsAsOne
