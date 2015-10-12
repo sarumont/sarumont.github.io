@@ -19,6 +19,7 @@ If you need to get ahold of me or want to see what I'm publishing elsewhere, hit
 #### read
  - [Github](https://www.github.com/sarumont)
  - [stackoverflow](http://stackoverflow.com/users/43356/sarumont)
+ - [Pocket](https://getpocket.com/@sarumont)
 
 #### write
  - [Email](mailto:richard@sigil.org)
