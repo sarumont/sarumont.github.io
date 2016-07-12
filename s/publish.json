@@ -1,0 +1,7 @@
+{
+	"rsync": {
+		"user": "richard",
+		"host": "lynx",
+		"destination": "/storage/decrypted/www/web/sigil.org/web"
+	}
+}

@@ -1,0 +1,30 @@
+---
+title: Home
+description:
+---
+{{# posts.paginator }}
+<div class="post">
+	<h3 class="title"><a href="{{url}}">{{title}}</a></h3>
+
+	<div class="social">
+			<div 
+			onclick="window.open('https://twitter.com/share?url=http://www.sigil.org{{url}}&via=sarumont&text={{title}}','','width=480,height=320,scrollbars=no,resizable=no,location=no,menubar=no,toolbar=no' )"
+			class="twitter"></div>
+			<div 
+			onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.sigil.org{{url}}','','width=480,height=320,scrollbars=no,resizable=no,location=no,menubar=no,toolbar=no' )"
+			class="facebook"></div>
+			<div 
+			onclick="window.open('https://plus.google.com/share?url=http://www.sigil.org{{url}}','','width=480,height=320,scrollbars=no,resizable=no,location=no,menubar=no,toolbar=no' )"
+			class="gplus"></div>
+	</div>
+	<div class="date">{{ date }}</div>
+	<div style="clear:both" />
+
+  {{{ content }}}
+
+</div>
+{{/ posts.paginator }}
+
+<div>
+	<h3><a href="archive">See all posts &raquo;</a></h3>
+</div>
