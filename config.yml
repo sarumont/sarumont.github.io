@@ -1,4 +1,4 @@
-production_url: "http://wwwtest.sigil.org"
+production_url: "http://www.sigil.org"
 
 "theme-sigil":
     use: "theme"
