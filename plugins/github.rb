@@ -35,6 +35,7 @@ class Ruhoh
       return false unless checkout_deploy_branch
       system("git", "rm", "-rf", ".")
       FileUtils.cp_r(File.join(ruhoh.paths.compiled, '.'), '.')
+      File.write 'CNAME', ruhoh.config['production_url'].gsub(%r{^https?://},'')
       `git add .` # system() doesn't work for some reason =/
 
       # Commit and push
