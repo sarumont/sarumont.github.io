@@ -1,5 +1,6 @@
 ---
 title: Announcing SigilUI
+layout: post
 ---
 
 Working on a project last week, I ran into some gaps in the Android SDK. Namely, the ability to set
