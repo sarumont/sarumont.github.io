@@ -41,9 +41,6 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1.2em;
 	text-rendering: optimizelegibility;
 
-    /* TODO maybe */
-  font-weight: bold;
-
     @include mobile {
         line-height: 1.4;
     }
@@ -144,36 +141,36 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+    @extend .base0C;
+    display: block;
+    float: none;
 
-  @include mobile {
-    text-align: center;
-  }
+    @include mobile {
+        text-align: center;
+    }
 }
 
 .site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
+    text-align: center;
+    text-shadow: 0 1px 0 #222;
     margin: 0 auto;
-  }
+    padding: 10px 10px 10px 10px;
+
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 .site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+    font-size: 20px;
+    a {
+        @extend .base0C;
+    }
 }
 
 .site-description {
