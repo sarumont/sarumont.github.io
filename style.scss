@@ -192,7 +192,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $base03;
   font-size: 16px;
 
   @include mobile {
@@ -223,9 +223,9 @@ img {
 
     blockquote {
         margin: 1.8em .8em;
-        border-left: 2px solid $gray;
+        border-left: 2px solid $base03;
         padding: 0.1em 1em;
-        color: $gray;
+        color: $base03;
         font-size: 22px;
         font-style: italic;
     }
