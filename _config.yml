@@ -4,32 +4,10 @@
 
 # Name of your site (displayed in the header)
 name: sigil.org
+author: Richard Kolkovich
 
 # Short bio or description (displayed in the header)
 description: 
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: richard@sigil.org
-  facebook:
-  flickr:
-  github: sarumont
-  instagram: sarumont
-  linkedin:
-  pinterest:
-  rss: s
-  twitter: sarumont
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
