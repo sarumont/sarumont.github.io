@@ -129,19 +129,12 @@ img {
   max-width: none;
 }
 
-.date {
-  font-style: italic;
-  color: $gray;
-}
-
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+    @extend .base02-background;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+    @extend .base02-background;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -211,8 +204,9 @@ img {
 // .main
 //
 
-.posts .header {
+.header {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .posts > .post {
@@ -260,6 +254,14 @@ hr {
 
 #archive {
     line-height: 1.5em;
+}
+
+.entry-footer {
+    @extend .base03;
+    margin-top: 20px;
+	font-size: .8em;
+    line-height: 1.3em;
+    text-transform: uppercase;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
