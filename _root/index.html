@@ -1,0 +1,27 @@
+---
+title: Home
+layout: default
+---
+
+<div class="page-header">
+{{# posts.latest }}
+  <h3 class="title"><a href="{{url}}">{{title}}</a></h3>
+{{/ posts.latest }}
+  <h5 class="author">by {{ data.author.name }}</h5>
+</div>
+
+{{# posts.latest }}
+<div class="row-fluid post-full">
+  <div class="span12">
+
+    <div class="content">
+      {{{ content }}}
+    </div>
+  </div>
+</div>
+{{/ posts.latest }}
+
+<hr>
+<div>
+	<h3><a href="archive">See all posts &raquo;</a></h3>
+</div>
