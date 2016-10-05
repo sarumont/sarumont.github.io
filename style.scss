@@ -4,10 +4,21 @@
 //
 // IMPORTS
 //
-
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+@import "base16-mocha";
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
+
+// fonts
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
 
 /**************/
 /* BASE RULES */
@@ -18,9 +29,33 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+    @extend .base06;
+    @extend .base00-background;
+    @extend .opensans;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+    @extend .montserrat;
+    @extend .base04;
+	margin:15px 0;
+	line-height: 1.2em;
+	text-rendering: optimizelegibility;
+
+    /* TODO maybe */
+  font-weight: bold;
+
+    @include mobile {
+        line-height: 1.4;
+    }
+}
+
+a {
+    @extend .base0E;
+    text-decoration: none;
+	cursor: pointer;
+    &:hover, &:active {
+        @extend .base08;
+    }
 }
 
 .container {
@@ -30,51 +65,9 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
-}
-
-h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  color: $gray;
-}
 
 p {
   margin: 15px 0;
-}
-
-a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
 }
 
 ul, ol {
@@ -160,23 +153,6 @@ img {
 
   @include mobile {
     text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
   }
 }
 
