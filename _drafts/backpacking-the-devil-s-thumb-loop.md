@@ -6,13 +6,6 @@ categories:
     - outdoors
 tags: ['backpacking']
 ---
-{{# javascripts.load }}
-jquery-1.10.2.min.js
-lightbox-2.6.min.js
-{{/ javascripts.load }}
-{{# stylesheets.load }}
-lightbox.css
-{{/ stylesheets.load }}
 
 It has been close to a decade since I last backpacked, so I finally got my ass back in gear. This
 past weekend, I decided to ease back into it with a 2-day, 1-night trip to [Devil's Thumb][devil]. I
