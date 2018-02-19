@@ -4,31 +4,44 @@ layout: default
 ---
 ## about
 
-I am a developer with a passion for building things and solving problems. I am currently working on
-the [nuvos SDK][1], a true one-and-done Java solution for writing enterprise-class applications.
+I am a developer with a passion for building things and solving problems. I am currently employed as
+an architect at [Neverfail][1], mainly focused on the Workspaces product.
 
-When I'm not hacking away on nuvos, I'm probably brewing beer, shredding some fresh powder, or
-hiking in the beautiful Rocky Mountains in Colorado. I may not be a native, but I got here as
-quickly as I could.
+I live in a van, which may or may not be [down by a river][4]. Check out [My Vanifesto](/vanifesto) to
+learn more about why. Or find me on [Instagram][3] to check my current "by a river" status.
 
-## contact
+I am passionate about the outdoors, and I can usually be found on a trail somewhere. Or not found,
+depending on the trail.
+Based on the weather and location, I'll be equipped with my mountain bike (Colonel Larry
+Mustard, the Bananajammer), skis, or just some hiking boots. I am a mountain bike racer, and am
+participating in several of the [2018 NUE Marathon Series Races][5].
 
-If you need to get ahold of me or want to see what I'm publishing elsewhere, hit up the links below.
+I'm also a [BJCP Certified][2] beer judge, homebrewer on sabbatical, and compulsive DIYer
 
-#### connect
- - [Twitter](https://www.twitter.com/sarumont)
- - [Google+](https://plus.google.com/+RichardKolkovich)
- - [LinkedIn](http://www.linkedin.com/in/richardkolkovich)
+## find me...
 
-#### read
+#### on social
+ - [Instagram][3]
+ - [Strava](https://www.strava.com/athletes/4000080)
+ - [Facebook](https://www.facebook.com/richardkolkovich)
+
+#### in code
  - [Github](https://www.github.com/sarumont)
  - [stackoverflow](http://stackoverflow.com/users/43356/sarumont)
+
+#### in a book
+ - [Goodreads](https://www.goodreads.com/user/show/31662209-richard-j-kolkovich)
  - [Pocket](https://getpocket.com/@sarumont)
 
-#### write
- - [Email](mailto:richard@sigil.org)
+#### to chat
+ - [email](mailto:richard@sigil.org)
+ - [FB Messenger](https://m.me/richardkolkovich)
 
-#### drink
+#### in my cups
  - [Untappd](https://untappd.com/user/sarumont)
 
- [1]: http://www.nuvos.com
+ [1]: https://www.neverfail.com
+ [2]: https://bjcp.org
+ [3]: https://www.instagram.com/sarumont
+ [4]: https://www.youtube.com/watch?v=Xv2VIEY9-A8
+ [5]: http://nuemtb.com/series/2018-series-calendar
