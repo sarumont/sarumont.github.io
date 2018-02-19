@@ -9,6 +9,9 @@ _#vanlife_. I have traded in my hail-destroyed 2016 Mazda CX-5 GT for a 2017 Mer
 Amazon.com distribution center. My days are spent working, listing troves of unused possessions on eBay and
 Craigslist, and outfitting my new home on wheels.
 
+Note: by the time I have edited this post sufficiently, I have actually been living in said van for almost
+three months. _#vanlife_ does *not* guarantee extra time for blogging, apparently.
+
 # Genesis
 
 The path from zero to an idea has always fascinated me, especially within the confines of my own
@@ -43,28 +46,31 @@ roving and thread). Whew!
 I, on the other hand, am a software engineer. The physical space which my craft requires is
 basically my 15" Retina Macbook Pro and my (physical) notebook. At the time, however, I still ran a
 rather massive desktop powering dual 24" monitors (on articulating arms) along with a laptop for
-when I would travel and an IP-based phone. Huge, relative to where my workstation is today.
+when I would travel and an IP-based phone. All this was on a rather spacious desk. Oh, and there was
+the matching cabinet with various office supplies. Huge, relative to where my workstation is today.
 
-Now this is not to say my ex-wife was a hoarder, and I was a minimalist. But the sheer difference in
-scale helped to illustrate the concept to me. I most definitely had a large workspace with many
-unnecessary additions, an expansive kitchen and developed expansive hobbies (i.e. - brewing my 
-own beer). But in the one, narrow lens of the equipment required for our respective professions, 
-I saw the light and appeal of minimalism.
+At some point, my ex-wife and I had a discussion about purging, minimizing, and living in a tiny
+home (note: this may be completely fictional, but I honestly cannot recall the exact manner in which
+this epiphany occurred to me). The mental exercise resulted in me realizing I could, with minimal
+sacrifice, trade my entire office in for a laptop. She, however, could not drastically reduce her
+studio without severe sacrifice in terms of productivity and utility. This seed, that I can easily
+make due with less, stuck with me, germinating over the years.
 
 When my ex- and I split in early 2016, I was not at all concerned about my ability to
-fit "half" our 1700 ft² loft into my new place and a storage unit. No problem, I said. And at
+fit "half" our 1700 ft² loft into my new place (just under 700 ft²), with a storage unit for various things which were to
+be listed on Craigslist. No problem, I said. And at
 midnight the day before we turned in the keys, I found myself supremely frustrated, rage-purging
 several items just to get the task behind me. My new apartment was full to the gills, and I had no
-more patience for the influx of crap.
+room nor patience for the influx of crap.
 
 And so I spent the next year purging steadily, getting rid of much which I did not need or use. I
 centralized most of the "to get rid of" stuff into one closet and considered myself fairly minimal.
-I decided to go on hiatus from brewing and sold my brewery which allowed me to get rid of my storage
+I decided to go on hiatus from homebrewing, selling my brewery, which allowed me to get rid of my storage
 unit. I had achieved a state of minimal-ish.
 
 ### Van minimal
 
-I spent two months living in Romania this winter out of my [Minaal 2.0](https://www.minaal.com) in
+I spent two months living in Romania last winter out of my [Minaal 2.0](https://www.minaal.com) in
 an AirBnB rental and came to know I was right about my ability to live with a truly minimal set of
 possessions. I came to the realization that what mattered in life were the experiences you had and
 the people you share them with.
@@ -74,8 +80,9 @@ I found much in my closet I didn't wear, many books I have never re-read, and ma
 kitchen which had not seen use in months or even years.
 
 Minor tangent here: At some point, I reached "peak home chef" - I had a well-equipped kitchen and
-enjoyed cooking and preparing meals which were often unnecessarily complex. I started coming down
-from that peak awhile ago and have been shedding baggage since.
+enjoyed cooking and preparing meals which were often unnecessarily complex and time consuming. I 
+started coming down from that peak awhile ago and have been shedding baggage since, while
+maintaining or even increasing the deliciousness of the foods I prepare.
 
 My mantra became one I have often read: Keep only that which you know to be useful or believe to be
 beautiful (paraphrased from [William Morris](https://www.wikiwand.com/en/William_Morris)). I knew I
@@ -125,24 +132,30 @@ my living expenses. Namely, that of rent. My current "fixed" living expenses (re
 account for 60% of my budget. Yes, that includes a new car. Without the car, rent + utilities equate
 to 43% of my budget. Either way you slice it, these two categories are heavy hitters.
 
+Yes, [Denver is expensive](https://www.denverpost.com/2017/08/31/how-much-you-need-earn-buy-typical-house-denver-81349-says-report/). 
+But I live in [one of the cheapest neighborhoods](https://www.rentjungle.com/average-rent-in-denver-rent-trends/) 
+in town (and with a good deal on rent, to boot). There is not much room for optimization within the
+area that I can find (Golden is generally MORE expensive - and for older, less-desirable places).
+
 More interesting to me, however, is the long term. Where is the future point where "financial
 independence" is attainable? How can *that* point be brought significantly forward? For the past 15
-years, I have *needed* to work. I maybe could have leaned on my parents some more in the beginnings,
-but that, to me, is Plan Z. Plan A is to make my own way, and that's what I have done.
+years, I have *needed* to work. I maybe could have leaned on my parents some more in the beginning
+of my independent, adult life; but that, to me, is Plan Z. Plans A-Y are to make my own way, and 
+that's what I have done.
 
 Had I been as smart as I thought I was, I'd be financially independent today. Look at [Mr. Money
 Mustache](https://www.mrmoneymustache.com/) for a case study. I am a software developer, and even in
 that industry I do well for myself. But, as is wont to happen when we are unwary, cocky, or both, I
 found myself on the hedonic treadmill. This treadmill is very hard to stop, especially when you add
 another person (i.e. - my ex-wife) to the mix. I'm certain the complexity of removing oneself (and
-family) from the hedonic treadmill is _O(n^2)_ (increasing exponentially with the number of people
+family) from the hedonic treadmill is at least _O(n^2)_ (increasing exponentially with the number of people
 involved). Now that it's just me, I have an easier time (yet still VERY difficult) hopping off.
 
 Capitalism thrives on consumerism. So companies make it their primary focus to get you to buy their
 products. But it's not enough to sell you what you need - they have to make you want what you don't
 need. And what you can't afford. Or shouldn't afford. Sure, you can afford that new iPhone X. But at
 what long-term cost? Humans are terrible at long-term thinking because the short-term win activates
-our reward centers. Delayed gratification is learned, not natural.
+our reward center. Delayed gratification is learned, not natural.
 
 And so most of us find ourselves on the hedonic treadmill, going for the short-term wins that jack
 us up with a hit of dopamine, sacrificing our tomorrow for today. I'll not digress too much here,
@@ -170,17 +183,21 @@ When I sprung this idea on my good friend, Bill, earlier this summer, he quipped
 was a _lifestyle schemer_. I prefer the term _hacker_ over _schemer_, but I'll take the quip as a
 compliment.
 
-_#vanlife_ promises to give me freedom from many things because, in five years, I will own my home
+_#vanlife_ promises to give me freedom from many things because, within five years, I will own my home
 free and clear. With such a reduction in my monthly spend, I could easily "retire" simply through
-heavy investment in the market, living off the dividends. All while traveling the country to meet
-new people, see new places, and shred new trails and slopes.
+investment, living off the dividends. All while traveling the country to spend time with my
+distributed friends and family, meet new friends, see new places, and shred new trails and slopes.
 
 But freedom to me is more than that. It's about being able to turn down a job because it's not the
 right fit rather than having to take something because you *need* the income. It's about being able
 to take a sabbatical to refresh my mind, body, and soul. It's about being able to craft the
-narrative I want to live - not the one that has been shoved down my throat. It's about losing the
-cruft and finding my best self. And maybe losing myself. It's an adventure, and I'm glad to be on
-it.
+narrative I want to live - not the one that has been shoved down my throat. It's about shedding the
+cruft and finding my best self. And maybe losing myself. It's about becoming a better son, brother,
+uncle, friend, colleague, and citizen of this wonderful world. It's an adventure, and I'm glad to be on it.
 
 > It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't 
 > keep your feet, there's no knowing where you might be swept off to.
+
+<div style="text-align:right;font-style:italic">
+~ J.R.R. Tolkien
+</div>
