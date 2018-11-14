@@ -15,3 +15,20 @@ Compiling in native Windows: 10:20, 10:25, 10:15
 
 https://www.phoronix.com/scan.php?page=article&item=wsl-february-2018&num=6
 https://brianketelsen.com/going-overboard-with-wsl-metadata/
+
+Next machine notes:
+    - have about $40/mo to spend on infra, depending on upgrade cycle
+        - 2015 MBP has cost me approx $40/mo, based on current resale value and original MSRP
+        - At $750 for a stacked Surface Go (check price), I could update my "thin client" every 3 years (37.5 mo, to be exact) and spend $20/mo on a VPS
+        - this puts something like the iPad Pro completely out of contention, financially
+
+    - Linux?
+    - Windows?
+    - 2018 MBP
+
+"Thin Client" links:
+    OG: http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad
+    https://andrewbrookins.com/technology/using-windows-10-and-the-surface-book-2-for-web-development/
+    http://typicalprogrammer.com/working-on-an-ipad-pro-as-my-main-computer
+    https://jann.is/ipad-pro-for-programming/
+    https://medium.freecodecamp.org/giving-the-ipad-a-full-time-job-3ae2440e1810
