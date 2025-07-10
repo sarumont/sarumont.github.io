@@ -1,9 +1,0 @@
-$base05: #D0C8C6;
-$base03: #7e705a;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
