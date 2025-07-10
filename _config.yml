@@ -62,11 +62,10 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-theme: minima
 remote_theme: "jekyll/minima@0b7ca6b"
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
