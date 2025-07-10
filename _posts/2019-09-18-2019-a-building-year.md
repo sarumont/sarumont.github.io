@@ -1,5 +1,5 @@
 ---
-title: 2019&#58; A Building Year
+title: '2019: A Building Year'
 layout: post
 ---
 

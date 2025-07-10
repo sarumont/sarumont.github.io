@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about
-layout: default
+layout: base
 ---
 # about
 
@@ -16,13 +16,5 @@ depending on the trail. Based on the weather and location, I'll be equipped with
 Based on the weather and location, I'll be equipped with my mountain bike (Colonel Larry Mustard, the Bananajammer), trail shoes, skis, or just some hiking boots. I am a competitive Spartan racer, avid mountain biker, and general fitness geek.
 
 I am also my family's executive chef, wannabe farmer, and compulsive DIYer.
-
-## find me...
-
-### [on a trail](https://www.strava.com/athletes/4000080)
-
-### [in code](https://www.github.com/sarumont)
-
-### [to chat](mailto:blog@sigil.org)
 
  [1]: https://moov.io

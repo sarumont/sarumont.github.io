@@ -1,5 +1,5 @@
 ---
-title: Race Report&#58; Big Bear Grizzly 75k (and season wrapup)
+title: 'Race Report: Big Bear Grizzly 75k (and season wrapup)'
 layout: post
 ---
 

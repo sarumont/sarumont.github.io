@@ -1,5 +1,5 @@
 ---
-title: Race Report&#58; Tatanka Marathon and Pierre's Hole 100k
+title: "Race Report: Tatanka Marathon and Pierre's Hole 100k"
 layout: post
 ---
 

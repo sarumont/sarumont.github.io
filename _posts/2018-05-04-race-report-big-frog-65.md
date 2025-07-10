@@ -1,5 +1,5 @@
 ---
-title: Race Report&#58; Big Frog 65
+title: 'Race Report: Big Frog 65'
 layout: post
 ---
 

@@ -1,24 +1,5 @@
 ---
 title: Archive
 permalink: /archive
-layout: default
+layout: home
 ---
-<table id="archive">
-    <tbody>
-    {% capture year %}{{ site.time | date: '%Y' }}{% endcapture %}
-    {% for post in site.posts %}
-        {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture post_month %}{{ post.date | date: '%-m' }}{% endcapture %}
-        {% if year != post_year %}
-            {% assign year = post_year %}
-            <tr class="year"><th><h4>{{ post.date | date: '%Y' }}</h4></th></tr>
-        {% endif %}
-        {% if month != post_month %}
-            {% assign month = post_month %}
-            <tr class="archive"><th>{{ post.date | date: '%B' }}</th><td></td></tr>
-        {% endif %}
-            <tr class="archive"><th>{{ post.date | date: '%d' }}</th><td><a href="{{ post.url }}">{{ post.title }}</a></td></tr>
-    {% endfor %}
-
-    </tbody>
-</table>

@@ -4,10 +4,11 @@
 
 # Name of your site (displayed in the header)
 name: sigil.org
-author: Richard Kolkovich
-
-# Short bio or description (displayed in the header)
-description: 
+author: 
+  name: Richard Kolkovich
+  # email: blog@sigil.org
+title: sigil.org
+description: The ramblings of a madman. Or the exploits of a coder, homelaber, father, and athlete. Maybe both...
 
 defaults:
   -
@@ -15,10 +16,18 @@ defaults:
       layout: "post"
 
 minima:
-  nav_pages:
-  - archive
-  - about
-  - feed.xml
+  social_links:
+    - title: "@sarumont on GitHub"
+      icon: github
+      url: "https://github.com/sarumont"
+    - title: "My Strava"
+      icon: strava
+      url: "https://www.strava.com/athletes/4000080"
+    - title: Email
+      icon: envelope
+      fa_namespace: regular
+      url: "mailto:blog@sigil.org"
+
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:

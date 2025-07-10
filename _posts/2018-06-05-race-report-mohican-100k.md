@@ -1,5 +1,5 @@
 ---
-title: Race Report&#58; Mohican 100k
+title: 'Race Report: Mohican 100k'
 layout: post
 ---
 
