@@ -20,6 +20,9 @@ minima:
     - title: "@sarumont on GitHub"
       icon: github
       url: "https://github.com/sarumont"
+    - title: "@richardkolkovich on LinkedIn"
+      icon: linkedin
+      url: "https://www.linkedin.com/in/richardkolkovich"
     - title: "My Strava"
       icon: strava
       url: "https://www.strava.com/athletes/4000080"
