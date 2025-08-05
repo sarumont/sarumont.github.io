@@ -34,3 +34,12 @@ serve-drafts:
 		--volume="$(shell pwd)/vendor/bundle:/usr/local/bundle" \
 		-p 4000:4000 docker.io/jekyll/jekyll:4.2.2 \
 		jekyll serve --drafts
+
+serve-future:
+	mkdir -p vendor/bundle
+	docker run --rm -it \
+		-e JEKYLL_ROOTLESS=1 \
+		--volume="$(shell pwd):/srv/jekyll" \
+		--volume="$(shell pwd)/vendor/bundle:/usr/local/bundle" \
+		-p 4000:4000 docker.io/jekyll/jekyll:4.2.2 \
+		jekyll serve --future
