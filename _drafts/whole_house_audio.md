@@ -78,3 +78,6 @@ Sirius XM && Custom init script for LMS
 
 
 https://forums.slimdevices.com/forum/user-forums/general-discussion/1652350-sirius-xm-and-tune-in-url/page9
+
+https://bit-101.com/blog/posts/2025-03-29/plex-navidrome-symfonium/
+https://www.jimwillis.org/2024/12/08/adventures-in-self-hosting-hifi-audio-streaming/
