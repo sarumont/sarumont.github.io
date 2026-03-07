@@ -35,6 +35,9 @@ serve-drafts:
 		-p 4000:4000 docker.io/jekyll/jekyll:4.2.2 \
 		jekyll serve --drafts
 
+twil:
+	./scripts/twil.sh
+
 serve-future:
 	mkdir -p vendor/bundle
 	docker run --rm -it \
