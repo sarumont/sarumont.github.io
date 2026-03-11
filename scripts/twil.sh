@@ -39,7 +39,11 @@ else
 	days_until_friday=$((12 - dow))
 fi
 
-friday=$(date -v+"${days_until_friday}d" +%Y-%m-%d)
+if date -v+0d +%Y-%m-%d &>/dev/null; then
+	friday=$(date -v+"${days_until_friday}d" +%Y-%m-%d)
+else
+	friday=$(date -d "+${days_until_friday} days" +%Y-%m-%d)
+fi
 filename="${friday}-twil-${friday}.md"
 filepath="${DRAFTS_DIR}/${filename}"
 
