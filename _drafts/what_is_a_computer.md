@@ -52,7 +52,6 @@ stick. Seems like highway robbery that they charge so much more for a USB-C key
 than USB-A, but that is probably better for all the older hardware in my homelab
 anyway.
 
-
 ## Enter: SteamOS
 
 USB 3.0 drive worked a treat, and I'm now in SteamOS. First real hurdle:
@@ -98,6 +97,107 @@ a desktop OS, as evidenced by my Github repos (TODO: link). And so to replace my
 laptop, I must be able to install Sway on the Legion Go. Or Hyperland... maybe I
 can take this opportunity to try it out.
 
+#### Hyprland
+
+OK, I first attempted to get Hyprland working, but it seems that since [this
+tutorial]() was written, Hyprland has dropped `wl-roots` in favor of its own
+compositor. That's all well and good...but the custom one (`aquamarine`) does
+NOT have an X11 backend. Which makes it a no-go on the X11-backed SteamOS. So
+I'm sticking with `swaywm`, which is fine by me because I'm very happy there.
+
+#### swaywm
+
+This was VERY straightforward.
+
+<insert nix setup>
+
+Caveats:
+- I, like the author of the Holoshed posts, found that `nix-daemon` did not
+  cleanly restart upon reboot. After further investigation, I discovered that, if 
+  I started it, it would actually prevent me from exiting Desktop mode. To work
+  around this, I updated my `sway.sh` launch script to use non-daemon mode for
+  `nix`.
+- I have to reset the GTK scale factor when starting Sway. No biggie - I put it
+  in my sway config as an `exec` directive
+- my `tmux` sessions don't seem to survive killing and restarting sway. I may
+  try to figure out a workaround here, but it shouldn't be a huge deal because I
+  still compulsively `:w` everything
+
+In addition to my first discovery, I had to remove some `exec` directives that
+lived in my `sway` config for general-purpose use. [My
+dotfiles](https://github.com/sarumont/dotfiles) have a provision for host-based
+configuration, so I just moved these to their relevant hosts (i.e. - my laptop.
+Which should not be in play much longer)
+
+#### Other things
+
+My personal computer use falls into one of the following categories:
+
+- web stuff (finances, trip planning, general research, etc.)
+- light terminal stuff (writing this blog, homelab configuration, etc.)
+- PKM management in Obsidian
+
+The first two are easily taken care of already with `ghostty`, `neovim`, and
+Firefox. The last requires Obsidian and Syncthing. I want to be able to launch
+directly into Obsidian, so I'm going to install both Obsidian and Syncthing via
+Flatpak.
+
+##### Syncthing
+
+```sh
+flatpak install me.kozec.syncthingtk
+```
+
+Easy, peasy. Now, Install the Decky plugin for Syncthing, configure it how you
+like, and Bob's your uncle. One consideration I want to revisit is security of
+my files - they are not encrypted, unfortunately. I have set a PIN to lock the
+Legion, so that is one deterrent. But, given physical access and a USB stick,
+all of those files are laid bare. I'm thinking about an encrypted directory
+inside of `~`...or even a permanently installed encrypted SD card. But that's
+for a future post.
+
+##### Obsidian
+
+Now that I have my second brain on my Legion, time to get Obsidian going. Again,
+it's as easy as:
+
+```sh
+flatpak install md.obsidian.Obsidian
+```
+
+And done. Add a non-steam launcher for it, and I can get into my notes easily
+from Game Mode.
+
+##### Tailscale
+
+Tailscale was pretty straightforward as well using [this
+repo](https://github.com/tailscale-dev/deck-tailscale) for a systemd overlay. I
+may have to investigate this strategy for other things (i.e. nix-daemon?) in the
+future.
+
+##### SSH
+
+Just a friendly reminder that you will, as always, need to use an existing key
+to ssh into server(s) and upload your new key, assuming you're disabling
+password login (which should be the case for anything publically accessible).
+
+# Will it blend?
+
+OK, now that everything is (mostly) set up, can I use the Legion Go ONLY? I have
+my trusty X1C closed in my office. I'm going to try to use only the Go for the
+next month. That will encompass: monthly accounting and my little league roster 
+(both Google Sheets), writing this blog (I'm doing it on the deck now), Homelab
+maintenance (I have an infinitely long TODO list here), trip planning (Cancun
+next week and Alaska in August), and weekly menu planning and shopping.
+
+I'll report back here in a month or so with any issues, real or perceived, that
+I have stumbled across. So far, I'm quite pleased with this setup. We'll see how
+it ages.
+
+https://holo-shed.github.io/dev-diary/04-holoshed-on-the-deck/
+https://guacamolie.nl/en/blog/sway-on-the-steam-deck/
+
+--- 
 
 Considerations:
 - security - can I have an encrypted section for sensitive files?
