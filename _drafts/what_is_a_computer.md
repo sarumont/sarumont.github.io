@@ -216,3 +216,10 @@ Desired hardware/accessories:
   joysticks?
 - battery upgrade
 - XReal glasses :D
+
+# Follow-up
+
+- default browser is the built-in steam browser. If I change it, other things
+- random failures to suspend on button?
+- random system restarts
+will not work :(
