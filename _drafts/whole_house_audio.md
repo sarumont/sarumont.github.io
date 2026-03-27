@@ -117,5 +117,10 @@ I've been running Roon for my audio for the past 2 months now, got my dad using 
 
 Dad is getting ready to fly out here for our annual ski trip. He asks me how to download music in Roon ARC for offline listening...I go to demonstrate, and it is not possible to do for content that is NOT in your personal library - i.e. content from the streaming provider. This is one of the big use-cases for me with the kids since they have iPods. Fucking shitty.
 
+
+## Non-Roon options:
+- 1 app for K: Apple Music (airplay), Spotify (needs Wiim), 
+- always going to be multiple apps for me to juggle
+
 [1]: https://darko.audio/2024/05/the-music-first-audiophile-manifesto/
 [2]: https://www.youtube.com/watch?v=WqJbvZVGWSE
