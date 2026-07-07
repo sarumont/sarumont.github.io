@@ -5,24 +5,48 @@ description:
 tags: []
 ---
 
-Last year, I embarked upon a journey that I've mentally flirted with for some time: I replaced my laptop with an iPad Pro (and Magic Keyboard).
+# The iPad Experiment 
 
-Annoyances:
+Three years ago, I embarked upon a journey that I've mentally flirted with for 
+some time: I replaced my laptop with an 11" iPad Pro (and Magic Keyboard). When 
+I had condidered this in the past, it was always caveated with the fact that my 
+laptop was my work machine as well as personal. Joining [Moov](https://moov.io), 
+however, I was provided with a work laptop, allowing me to gain some semblance 
+of tech separation. I decided the time was right: I would sell my XPS 13 and dive
+head-first into iPadOS as a daily driver.
 
-"Blink would like to paste from Discord - would you like to allow this?"
+Others have commented on the hardware ad infinitum, so I won't spend much time
+here other than to say that the hardware is beautiful and capable.
 
+The software? Well, that's another story. I spent some time getting things set
+up following various guides out there on the Internet - I had Syncthing working
+(mostly) flawlessly, Blink shell was very nice, and all the normal apps were
+fine. I even used `sshfs` via Blink to transfer files sometimes.
 
-The 11” is a bit cramped, the keyboard is annoying at times (the number row is under the screen, so it’s hard to hit), iPadOS gets in the way a bit. The OS experience is either great or terrible, depending on the task at hand…it rarely gets to “mediocre” 😛
+But there were always little annoyances.. like "Blink would like to paste from 
+Discord - would you like to allow this?". Yes, dammit, I would like to allow it.
+And I would like you to not ask me.
 
-I was already starting to lean that way, honestly. The annoyances/limitations of iPad OS wearing on me over the year and the form factor were probably the biggest factors.
+There were others:
+- sometimes, the on-screen keyboard chip would block inputs it is not on top of. This occurs while using the Magic Keyboard.
+- why is the Magic Keyboard's USB-C port only for power and not full Thunderbolt port? The placement is much better for plugging things like a dock in than the iPad's port (which would leave the dock hanging off the right side of the screen)
+- the 11” screen and smaller keyboard is a bit cramped for me
+- the number row is under the screen, so it’s hard to hit when touch-typing
 
-Probably still a fine decision for “normal people”, too. Not a geek who has spent countless hours making his desktop as efficient as possible to perform the task at hand, building `vim`-like keybindings into everything, and using tiling window managers. 🤣
+In short, the OS experience is either great or annoying, depending on the task at hand...it rarely achieves “mediocre”.
+And, for a geek like me who has a very off-piste set of preferences, the iPad experiment was a failure.
 
-Some weird shit sometimes with the on-screen keyboard chip blocking inputs it is not on top of. This occurs while using the Magic Keyboard.
+So, after a year, I decided that I would come back to the best laptop 
+in the world: the Thinkpad X1C (Gen 9). I have owned a previous model of this
+magnificent device and found it to be excellent for everything short of serious
+computation (CPU- or GPU-intensive stuff). Depending on WHAT you're coding, it's
+an excellent device for a lot of workloads there.
 
-Why is the Magic Keyboard's USB-C port only for power and not a TB port? :facepalm:
+# Legion Who?
 
----
+I've been interested in the Steam Deck since it launched - I love AMD and Linux,
+so everything about it was awesome. 
+
 
 I just bought a Lenovo Legion Go (1st Gen). This little guy features an AMD Z1 Extreme CPU, 16GB RAM, and a 1TB SSD inside and a gorgeous 8.8" 1440p display outside (OK, maybe it's not so little). My goal? Can I replace my Lenovo X1C for things I use my laptop for (like writing this post) most of the time while being able to play some games, mainly with my son and brother.
 
@@ -199,6 +223,8 @@ https://guacamolie.nl/en/blog/sway-on-the-steam-deck/
 
 --- 
 
+
+
 Considerations:
 - security - can I have an encrypted section for sensitive files?
 - what do I need to back up to make restoring a breeze?
@@ -223,3 +249,5 @@ Desired hardware/accessories:
 - random failures to suspend on button?
 - random system restarts
 will not work :(
+
+https://github.com/aarron-lee/legion-go-tricks?tab=readme-ov-file#status-of-official-steamos
