@@ -1,5 +1,5 @@
 ---
-title: Announcing: sxm-streamer
+title: 'Announcing: sxm-streamer'
 layout: post
 categories: music
 ---
