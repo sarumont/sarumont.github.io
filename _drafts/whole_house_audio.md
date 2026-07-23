@@ -1,6 +1,5 @@
 ---
-title: 'An Audio Odyssey'
-description: Whole-house audio, self-hosting, and owning music in the age of streaming.
+title: 'A Whole-House Audio Odyssey'
 categories: ['audio', 'music', 'homelab']
 ---
 
@@ -8,19 +7,28 @@ I consider myself a practical audiophile, a [music-first][1] audiophile, if you
 will. I realize that, to many, this is an oxymoron. But I love music and want 
 to experience it as best as I can. I do *not*, however, want to sell a kidney 
 to get the absolute best equipment when I cannot discern a difference between
-"good enough" and "the absolute best" (except for the difference in my checking
-account balance).
+"good enough" and "the absolute best" (audibly - the difference in my checking
+account balance is quite discernible).
 
 # A Journey Towards a Whole-House System
 
-I've always dreamt of a whole-house audio system. I'm not entirely sure why, but
-I have. For the longest time, my audio system was always my computer. I had a
+I inherited all of this from my father: my love of music itself, my respect for
+so-called high fidelity, my desire to do the music I love justice with the
+equipment I enjoy it on. I grew up in a house with a Harman Kardon Citation 16
+and 17 amp/pre-amp stack. Various speakers ranging from ARs to Dahlquist.
+Respect for the discs I had to be trained to handle lest they become scratched
+(I never handled the vinyl).
+
+Becoming interested in tech along the way, I developed my own dream of a 
+whole-house audio system. I'm not entirely sure why, but I have. 
+
+For the longest time, my audio system was always my computer. I had a
 good set of speakers and played music with Winamp (you know, [it really whips the
 Llama's ass][2]). When I switched to Linux, I replaced Winamp with XMMS, an
 open-source Winamp copycat. At some point after this, I discovered [`musicpd`][3] 
-and stuck with it for a long time.
+and stuck with it for a very long time.
 
-13ish years ago, my dad and I were tossing around the idea of digitizing his
+A decade and a half ago, my dad and I were tossing around the idea of digitizing his
 entire CD library such that he could play it in the house and control it from
 his phone. This was in the early days of the Raspberry Pi, so I came up with a
 solution involving a Synology NAS, [EAC][4], and a Pi. The Pi would be hooked up
@@ -30,32 +38,55 @@ bit of configuration and much CD ripping, DadFi was born.
 
 ## Evolution
 
-While this system was in use at my parents' house, I wound up with a single
+While this system was in use at my parents' house for many years, I continued using 
+musicpd daily on my computer while working and hanging out, as it was generally
+in the living space of my home or apartment. At some point, I added a home
+theater PC running XBMC which became Kodi, thus relieving my PC from music duty
+for the home.
+
+Building a family saw my decor and social habits change, and so I wound up with a single
 Sonos Play:1 speaker in my kitchen. I still listened to music via musicpd at my
 desk, but I had begun to play with streaming, signing up for a Spotify account
 to replace the recently EOL'd [Google Play Music][6]. What I was missing was a
 way to play my extensive collection of digital music on said Sonos speaker.
 Enter: Logitech Media Server.
 
+## LMS
 
-# The Plan
+Looking back, Logitech Media Server was and still is a fantastic piece of tech.
+The Squeezebox hardware which Logitech made to accompany it seems to have been
+great, and a lot of it is still in use. When Logitech closed the project down,
+the media server and protocol were open-sourced. The community maintained it,
+improved it, expanded it. When I started playing with it, it had grown beyond
+Squeezboxes and your local music library: you could connect it to your Spotify,
+too. It had a modern interface in the Material Skin. It was, in a word, perfect
+for whole-home audio. The Squeezelite protocol supported synchronized multi-zone 
+playback, allowing the same song to be synchronized across all your speaker
+zones.
 
-I decided that the cabin needed sound in each bedroom, the kitchen, and outside. Since there was a porch out front and a planned deck in the back, this totalled six zones. I wired all these rooms with some 18ga speaker cable (as well as CAT6 and coax) before closing them up and went about planning out the system.
+And so I used it myself for a while, vetting it with the Sonos, and then I
+upgraded DadFi. My father still only had a single zone, but when my parents
+eventually moved out of my childhood home, we added a second and third, so the
+move to LMS paid dividends.
 
-After a bit of research, I decided on a Dayton Audio <model number here>. With six independent zones, I would be set for the cabin. For the kitchen ceiling, I went with a pair of Polk Audio <model number here>. My initial plan was to get the kitchen and the front porch zones wired up first, as those are the most used locations in the house.
+A little over three years ago, I also moved. Our new home thankfully had several
+speaker zones wired, so I really had little to do to achieve my whole-house
+audio system dream. I replaced the dead receiver the previous owner had left in
+the house, as it had developed a serious buzz from some blown caps (it was left
+on 100% of the time in the heat of the garage utility closet). My new amp, a
+Dayton Audio <model> with six zones, has an automatic standby feature to preserve
+its components.
 
-I planned to used Raspberry Pis (and DACs) for input sources, but this was before the Great Raspberry Pi Drought, which seems to be still ongoing.
+As for the endpoints? I had started dabbling with a homelab (again) at this point, 
+so I found some budget USB DACs (FiiO E10s) on eBay and hooked them up to a
+Linux server.
 
-## Moving
+# Linux and LMS
 
-As the cabin build came to a close, my wife and I sold our house and moved. Lo and behold, our new house had been wired for sound: speakers in the kitchen, speakers out on the back patio, and speakers in the primary bathroom. There is also evidence that the upstairs bonus room had been wired at one point, though the speakers are no longer in there.
-
-
-
-
-https://alsa.opensrc.org/Udev#A_working_example
-
-udev output:
+Due to the open nature of the protocol, there is a simple piece of software
+called `squeezelite` which can provide a player for LMS. All I had to do was to
+sort out which DAC went to which zone. This required a little `udev` hackery to
+name the audio devices in a human-friendly manner:
 
 Run the following command:
 
@@ -72,9 +103,14 @@ Now plug in your DAC. You will be met with output that looks like:
     MAJOR=116
     MINOR=64
 
-The key takeaway here is the `DEVPATH` section. This will 
+The key takeaway here is the `DEVPATH` section. This will end up in a udev
+`rules.d` entry, giving that specific device a unique name.
 
-Reload your udev rules:
+```
+TODO: rescue the rules.d entry...
+```
+
+Now reload your udev rules:
 
     sudo udevadm control --reload-rules && sudo udevadm trigger
 
@@ -102,25 +138,34 @@ I never had success with `udev` renaming the audio device via `trigger`, so I ha
         FiiO USB DAC-E10, USB Audio
         Default Audio Device
 
-Sirius XM && Custom init script for LMS
+With distinct device names per zone, I am in business. I created a separate
+`systemd` unit per zone to run `squeezelite`. Note that you need a distinct MAC
+address per endpoint, so you'll have to fake one with the `squeezelite` config:
 
+```
+TODO: grab squeezelite config
+```
 
-https://forums.slimdevices.com/forum/user-forums/general-discussion/1652350-sirius-xm-and-tune-in-url/page9
+# Audio Nirvana
 
-https://bit-101.com/blog/posts/2025-03-29/plex-navidrome-symfonium/
-https://www.jimwillis.org/2024/12/08/adventures-in-self-hosting-hifi-audio-streaming/
+Finally, after all these years, I had a whole-home audio system, complete with
+my local music library, Spotify streaming, and (eventually) SiriusXM 
+integration. I had synchronized playback. I had a nice interface on my phone 
+and the tablet I now have permanently mounted in the kitchen.
 
+Was it "HiFi"? Hell no. I have in-ceiling speakers in the kitchen and master
+bath. And the acoustics are awful in both rooms. The outdoor speakers are
+actually pretty nice but again - they are outdoor speakers. But I have music
+where it matters.
 
-Goddamn. I thought I had it as close to perfect as I could get. But no.
+I still have a good pair of headphones, DAC, and amp on my desk. But when I'm 
+cooking dinner, entertaining, or just hanging out with my family, I have 
+music to enjoy and share. And THAT is what it's all about. 
 
-I've been running Roon for my audio for the past 2 months now, got my dad using it for mobile (via their mobile app, Roon ARC). It gives you a unified view of your music plus either Qobuz or Tidal as a streaming service. Great. Whole home audio? Check. So it replaces Lyrion in my house. You still need 2 apps, unfortunately (Roon for "home mode", Roon ARC for "away mode")...but it's a unified library, shared view between the apps, etc. (so your play history and thus suggestions are all the same between the two). As a bonus, it has great editorial content inside the app, so you can deep dive through a review or to find similar artists / influences. Or another recording where X person was involved (i.e. - I want to hear more of this drummer. Very useful for jazz).
-
-Dad is getting ready to fly out here for our annual ski trip. He asks me how to download music in Roon ARC for offline listening...I go to demonstrate, and it is not possible to do for content that is NOT in your personal library - i.e. content from the streaming provider. This is one of the big use-cases for me with the kids since they have iPods. Fucking shitty.
-
-
-## Non-Roon options:
-- 1 app for K: Apple Music (airplay), Spotify (needs Wiim), 
-- always going to be multiple apps for me to juggle
 
 [1]: https://darko.audio/2024/05/the-music-first-audiophile-manifesto/
 [2]: https://www.youtube.com/watch?v=WqJbvZVGWSE
+[3]: https://www.musicpd.org/
+[4]: https://www.exactaudiocopy.de/
+[5]: https://www.schiit.com/products/modi-5
+[6]: https://en.wikipedia.org/wiki/Google_Play_Music
