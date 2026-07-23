@@ -7,17 +7,17 @@ I consider myself a practical audiophile, a [music-first][1] audiophile, if you
 will. I realize that, to many, this is an oxymoron. But I love music and want 
 to experience it as best as I can. I do *not*, however, want to sell a kidney 
 to get the absolute best equipment when I cannot discern a difference between
-"good enough" and "the absolute best" (audibly - the difference in my checking
+"good enough" and "the absolute best" (audibly—the difference in my checking
 account balance is quite discernible).
 
 # A Journey Towards a Whole-House System
 
 I inherited all of this from my father: my love of music itself, my respect for
-so-called high fidelity, my desire to do the music I love justice with the
-equipment I enjoy it on. I grew up in a house with a Harman Kardon Citation 16
-and 17 amp/pre-amp stack. Various speakers ranging from ARs to Dahlquist.
-Respect for the discs I had to be trained to handle lest they become scratched
-(I never handled the vinyl).
+so-called high fidelity, and my desire to do the music I love justice with the
+equipment I use to enjoy it. I grew up in a house with a Harman Kardon Citation
+16 and 17 amp/pre-amp stack and various speakers ranging from ARs to Dahlquist.
+I was taught to respect the discs I had to handle lest they become scratched (I
+never handled the vinyl).
 
 Becoming interested in tech along the way, I developed my own dream of a 
 whole-house audio system. I'm not entirely sure why, but I have. 
@@ -29,10 +29,10 @@ open-source Winamp copycat. At some point after this, I discovered [`musicpd`][3
 and stuck with it for a very long time.
 
 A decade and a half ago, my dad and I were tossing around the idea of digitizing his
-entire CD library such that he could play it in the house and control it from
+entire CD library so that he could play it in the house and control it from
 his phone. This was in the early days of the Raspberry Pi, so I came up with a
 solution involving a Synology NAS, [EAC][4], and a Pi. The Pi would be hooked up
-to a [Schiit Modi DAC][5] which in turn acted as an input to his HiFi system.
+to a [Schiit Modi DAC][5] which in turn acted as an input for his hi-fi system.
 Musicpd formed the backbone, along with an Android app to control it. After a
 bit of configuration and much CD ripping, DadFi was born.
 
@@ -44,23 +44,23 @@ in the living space of my home or apartment. At some point, I added a home
 theater PC running XBMC which became Kodi, thus relieving my PC from music duty
 for the home.
 
-Building a family saw my decor and social habits change, and so I wound up with a single
+Starting a family changed my decor and social habits, and so I wound up with a single
 Sonos Play:1 speaker in my kitchen. I still listened to music via musicpd at my
-desk, but I had begun to play with streaming, signing up for a Spotify account
-to replace the recently EOL'd [Google Play Music][6]. What I was missing was a
+desk, but I had begun to dive more deeply into streaming, signing up for a Spotify account
+to replace the recently discontinued [Google Play Music][6]. What I was missing was a
 way to play my extensive collection of digital music on said Sonos speaker.
 Enter: Logitech Media Server.
 
 ## LMS
 
 Looking back, Logitech Media Server was and still is a fantastic piece of tech.
-The Squeezebox hardware which Logitech made to accompany it seems to have been
-great, and a lot of it is still in use. When Logitech closed the project down,
-the media server and protocol were open-sourced. The community maintained it,
-improved it, expanded it. When I started playing with it, it had grown beyond
+The Squeezebox hardware that Logitech made to accompany it seems to have been
+great, and much of it is still in use. When Logitech closed the project down,
+the media server and protocol were open-sourced. The community maintained,
+improved, and expanded it. When I started playing with it, it had grown beyond
 Squeezboxes and your local music library: you could connect it to your Spotify,
 too. It had a modern interface in the Material Skin. It was, in a word, perfect
-for whole-home audio. The Squeezelite protocol supported synchronized multi-zone 
+for whole-house audio. The Squeezelite protocol supported synchronized multi-zone
 playback, allowing the same song to be synchronized across all your speaker
 zones.
 
@@ -70,7 +70,7 @@ eventually moved out of my childhood home, we added a second and third, so the
 move to LMS paid dividends.
 
 A little over three years ago, I also moved. Our new home thankfully had several
-speaker zones wired, so I really had little to do to achieve my whole-house
+speaker zones already wired, so I really had little to do to achieve my whole-house
 audio system dream. I replaced the dead receiver the previous owner had left in
 the house, as it had developed a serious buzz from some blown caps (it was left
 on 100% of the time in the heat of the garage utility closet). My new amp, a
@@ -148,17 +148,17 @@ TODO: grab squeezelite config
 
 # Audio Nirvana
 
-Finally, after all these years, I had a whole-home audio system, complete with
+Finally, after all these years, I had a whole-house audio system, complete with
 my local music library, Spotify streaming, and (eventually) SiriusXM 
 integration. I had synchronized playback. I had a nice interface on my phone 
 and the tablet I now have permanently mounted in the kitchen.
 
-Was it "HiFi"? Hell no. I have in-ceiling speakers in the kitchen and master
+Was it "Hi-Fi"? Hell no. I have in-ceiling speakers in the kitchen and master
 bath. And the acoustics are awful in both rooms. The outdoor speakers are
-actually pretty nice but again - they are outdoor speakers. But I have music
+actually pretty nice, but again—they are outdoor speakers. But I have music
 where it matters.
 
-I still have a good pair of headphones, DAC, and amp on my desk. But when I'm 
+I still have a good pair of headphones, a DAC, and an amp on my desk. But when I'm
 cooking dinner, entertaining, or just hanging out with my family, I have 
 music to enjoy and share. And THAT is what it's all about. 
 
